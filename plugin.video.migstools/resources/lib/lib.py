@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Copyright 2014 Anonymous
+# Copyright 2015 Miguel
 
 import urllib,urllib2,re,xbmcplugin,xbmcgui,xbmc,xbmcaddon,HTMLParser,os,sys,time,subprocess,shutil,hashlib,zipfile,ctypes
 h = HTMLParser.HTMLParser()
 
-addon_id = 'plugin.video.xbmctools'
+addon_id = 'plugin.video.migstools'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 addonfolder = selfAddon.getAddonInfo('path')
 if not os.path.exists(addonfolder): addonfolder = addonfolder.decode('utf-8')
